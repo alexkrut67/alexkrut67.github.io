@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.container {
+	max-width: 900px;
+	margin: auto;
+	padding: 15px;
+}
+.section {
+	text-align: center;
+}
+.row {
+	text-align: center;
+	display: block;
+}									
+.box {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 200px;
+	border: 2px solid red;
+	position: relative;
+}
+.img1 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/1.jpg) center no-repeat;
+	background-size: cover;
+}
+.img1:hover::before {
+	content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+} 
+
+.img2 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/2.jpg) center no-repeat;
+	background-size: cover;
+}
+.img2:hover::before {
+	content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+} 
+.img3 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/3.jpg) center no-repeat;
+	background-size: cover;
+}
+.img3:hover::before {
+	content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+} 
+.img4 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/4.jpg) center no-repeat;
+	background-size: cover;
+}
+.img4:hover::before {
+	content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+} 
+
+.button-one {
+	border: none;
+	font-weight: 700;
+	font-size: 14px;
+ color: white;
+ padding: .8em 1em calc(.8em + 3px);
+ border-radius: 3px;
+ background: rgb(64,199,129);
+ box-shadow: 0 -3px rgb(53,167,110) inset;
+ transition: 0.2s;
+}
+.button-one:hover {
+	background-color: #048b56;
+}
+.btn {
+	display: inline-block;
+	width: 10rem;
+	height: 100%;
+ color: white;
+ padding: .5em 2em;
+ border: none;
+ border-width: 2px 0;
+ border-style: solid none;
+ border-color: #FDBE33 #000 #D77206;
+ border-radius: 6px;
+ background: linear-gradient(#F3AE0F, #E38916) #E38916;
+ transition: 0.2s;
+}
+.btn:hover {
+background: #c17e02;
+}
+
