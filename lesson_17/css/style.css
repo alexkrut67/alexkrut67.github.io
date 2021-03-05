@@ -1,0 +1,24 @@
+.container-box {
+	width: 733px;
+	height: 349px;
+	background: #b4b2b2;
+}
+.btn-primary{
+	border: none;
+
+}
+.modal-title {
+	text-align: center;
+}
+.modal-body {
+	text-align: center;
+}
+
+.btn-danger {
+	width: 170px;
+	height: auto;
+}
+.btn-primary {
+	width: 170px;
+	height: auto;
+}
