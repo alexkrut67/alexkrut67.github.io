@@ -7,5 +7,5 @@
 
 [Урок 15](https://alexkrut67.github.io/Lesson_15/ "эффект наведения")- Затемнение img при наведении курсора
 
-[Урок 17](https://alexkrut67.github.io/Lesson_17/ "модальное окно")- Всплывающее окно
+[Урок 17](http://alexkrut67.github.io/lesson_17/ "модальное окно")- Всплывающее окно
 
